@@ -12,8 +12,8 @@ spec:
       labels:
         app: siteindicadores
     spec:
-      containers:
+    containers:
         - name: siteindicadores
-          image: azurenapratica/site-indicadores-economia-2021:1
+          image: azurenapratica/site-indicadores-economia-2021:2
           ports:
           - containerPort: 80
